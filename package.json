@@ -1,0 +1,20 @@
+{
+  "name": "TransportAPI",
+  "version": "0.0.1",
+  "description": "wrapper around TransportAPI weather API",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "debug": "0.7.2",
+    "lodash": "1.1.1",
+    "request": "2.16.6"
+  },
+  "keywords": [],
+  "repository": {
+    "url": "git@github.com:danjamker/TransportAPI.git"
+  },
+  "homepage": "https://github.com/danjamker/TransportAPI",
+  "author": {
+    "name": "Daniel Kershaw"
+  },
+  "license": "BSD"
+}
