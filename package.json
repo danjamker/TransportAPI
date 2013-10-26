@@ -3,10 +3,17 @@
   "version": "0.0.1",
   "description": "wrapper around TransportAPI weather API",
   "main": "./lib/index.js",
+  "scripts": {
+    "test": "DEBUG= ./node_modules/.bin/mocha -R spec -t 5000"
+  },
   "dependencies": {
     "debug": "0.7.2",
     "lodash": "1.1.1",
     "request": "2.16.6"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
   },
   "keywords": [],
   "repository": {
