@@ -3,6 +3,217 @@
 	{
 		"selected_items":
 		[
+<<<<<<< HEAD
+=======
+			[
+				"re",
+				"restify"
+			],
+			[
+				"mysqli_",
+				"mysql_insert_id"
+			],
+			[
+				"prop",
+				"propertyid"
+			],
+			[
+				"p",
+				"propertyID"
+			],
+			[
+				"from",
+				"from_user_id"
+			],
+			[
+				"id",
+				"from_id"
+			],
+			[
+				"nego",
+				"id_negotiations"
+			],
+			[
+				"chan",
+				"chances"
+			],
+			[
+				"chanc",
+				"chanceID"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"j",
+				"j"
+			],
+			[
+				"var",
+				"varb"
+			],
+			[
+				"pos",
+				"postcodeRegon"
+			],
+			[
+				"po",
+				"postcode"
+			],
+			[
+				"post",
+				"postcode"
+			],
+			[
+				"da",
+				"dataRegion"
+			],
+			[
+				"t",
+				"tpwine"
+			],
+			[
+				"tp",
+				"tppissed"
+			],
+			[
+				"h",
+				"hungover"
+			],
+			[
+				"d",
+				"drunk"
+			],
+			[
+				"v",
+				"vodka"
+			],
+			[
+				"score",
+				"scores"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"co",
+				"coordinates"
+			],
+			[
+				"loc",
+				"location"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"yr",
+				"yr"
+			],
+			[
+				"lable",
+				"labels"
+			],
+			[
+				"bar",
+				"barChart"
+			],
+			[
+				"data",
+				"dataSets"
+			],
+			[
+				"in",
+				"infiles"
+			],
+			[
+				"ret",
+				"returnStrcut"
+			],
+			[
+				"hou",
+				"hourly"
+			],
+			[
+				"num",
+				"num_bins"
+			],
+			[
+				"tf",
+				"tfcScore"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"xL",
+				"xlabel"
+			],
+			[
+				"postCo",
+				"postCodeRegion"
+			],
+			[
+				"coll",
+				"finalCollocation"
+			],
+			[
+				"run",
+				"RunTest"
+			],
+			[
+				"term",
+				"terms"
+			],
+			[
+				"e",
+				"except"
+			],
+			[
+				"tn",
+				"tnmc"
+			],
+			[
+				"fin",
+				"findNearPostCodeReagion"
+			],
+			[
+				"file",
+				"files"
+			],
+			[
+				"open",
+				"openFile"
+			],
+			[
+				"Bi",
+				"BigramCollocationMeasures"
+			],
+			[
+				"fil",
+				"filter_stops"
+			],
+			[
+				"s",
+				"stopset"
+			],
+			[
+				"stop",
+				"stopwords"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			]
+>>>>>>> 3b700112d7712f215ccf3fb24f1cb30112d0b281
 		]
 	},
 	"buffers":
@@ -18,11 +229,27 @@
 	"build_system": "",
 	"command_palette":
 	{
+<<<<<<< HEAD
 		"height": 0.0,
 		"selected_items":
 		[
 		],
 		"width": 0.0
+=======
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"comme",
+				"Toggle Comment"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			]
+		],
+		"width": 392.0
+>>>>>>> 3b700112d7712f215ccf3fb24f1cb30112d0b281
 	},
 	"console":
 	{
@@ -42,10 +269,128 @@
 	},
 	"file_history":
 	[
+<<<<<<< HEAD
 	],
 	"find":
 	{
 		"height": 0.0
+=======
+		"/Users/danielkershaw/Documents/Code/ProjectNutMeg-API/node_modules/newrelic/newrelic.js",
+		"/Users/danielkershaw/Documents/Code/ProjectNutMeg-API/v0.1/Route/weather.js",
+		"/Users/danielkershaw/Documents/Code/ProjectNutMeg-API/v0.1/Model/weather.js",
+		"/Users/danielkershaw/Documents/Code/ProjectNutMeg-API/config.js",
+		"/Users/danielkershaw/Documents/Code/ProjectNutMeg-API/v0.1/bus.js",
+		"/Users/danielkershaw/Documents/Code/ProjectNutMeg-API/npm-debug.log",
+		"/Users/danielkershaw/Documents/Code/Hackmanchester2013/jquery.sparkline.min.js",
+		"/Users/danielkershaw/Documents/Code/Hackmanchester2013/property_model.php",
+		"/Users/danielkershaw/Documents/Code/Hackmanchester2013/index.php",
+		"/Users/danielkershaw/Documents/Code/Hackmanchester2013/user_model.php",
+		"/Users/danielkershaw/Documents/Code/Hackmanchester2013/properties.php",
+		"/Users/danielkershaw/Documents/Code/Hackmanchester2013/insurance.php",
+		"/Users/danielkershaw/Documents/Code/Hackmanchester2013/insurace_model.php",
+		"/Users/danielkershaw/Documents/Code/Hackmanchester2013/transaction_model.php",
+		"/Users/danielkershaw/Documents/Code/Hackmanchester2013/activity-streams.css",
+		"/Users/danielkershaw/Documents/Code/Hackmanchester2013/chance_model.php",
+		"/Users/danielkershaw/Documents/Code/Hackmanchester2013/testpusher.php",
+		"/Users/danielkershaw/Documents/Code/Hackmanchester2013/untitled",
+		"/Users/danielkershaw/Documents/Code/Hackmanchester2013/chance.php",
+		"/Users/danielkershaw/Documents/Code/Hackmanchester2013/transaction.php",
+		"/Users/danielkershaw/Documents/Code/Hackmanchester2013/user.php",
+		"/Users/danielkershaw/Documents/Code/Hackmanchester2013/message.php",
+		"/Users/danielkershaw/Documents/Code/Hackmanchester2013/api.php",
+		"/Users/danielkershaw/Documents/Code/Hackmanchester2013/checkin_model.php",
+		"/Users/danielkershaw/Documents/Code/Hackmanchester2013/checkin.php",
+		"/Users/danielkershaw/Documents/University/Lancaster - Third Year/Third Year/Auction Server/policy",
+		"/Users/danielkershaw/Documents/University/Lancaster - Third Year/Third Year/Auction Server/client.policy",
+		"/Users/danielkershaw/Dropbox/SCC311/Practical Work/RMI Tutorial/rmiclient.java",
+		"/Users/danielkershaw/Documents/Code/exporttoLABS1.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/word cloud/wordCouldProgram.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/test/wordcloud.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/test/geo.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/test/graphsAndCorrolation.py",
+		"/Users/danielkershaw/Documents/Code/alcohol-twitter-map/wordfreqProvider.js",
+		"/Users/danielkershaw/Documents/Code/alcohol-twitter-map/postcodeprovider.js",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/GEOJSON/import json.py",
+		"/Users/danielkershaw/Documents/Code/alcohol-twitter-map/package.json",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/GEOJSON/EportToMongo.json",
+		"/Users/danielkershaw/Documents/Code/alcohol-twitter-map/views/layout.jade",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/WordProbability Coefficent/coEfficent.py",
+		"/Users/danielkershaw/Documents/Code/alcohol-twitter-map/dataprovider.js",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/CSS/colourpicker.py",
+		"/Users/danielkershaw/Documents/Code/alcohol-twitter-map/views/index.jade",
+		"/Users/danielkershaw/Documents/Code/alcohol-twitter-map/public/slider/css/slider.css",
+		"/Users/danielkershaw/Documents/Code/alcohol-twitter-map/public/stylesheets/layout.css",
+		"/Users/danielkershaw/Documents/Code/alcohol-twitter-map/public/stylesheets/population.css",
+		"/Users/danielkershaw/Documents/Code/alcohol-twitter-map/public/stylesheets/style.css",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/Map Reduce/mapperNEW.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/WordProbability Coefficent/coEfficentWeek.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/word cloud/geo.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/Map Reduce/run.sh",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/test/output.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/test/coEfficentWeek.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/test/WordFrequancyGraphs.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/mongodbimport.sh",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/convert.sh",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/GEOJSON/runMerge.sh",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/GEOJSON/merge.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/Map Reduce/merge.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/Map Reduce/runMerge.sh",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/Map Reduce/runTerm.sh",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/Map Reduce/reducerNEW.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/Map Reduce/termprobabilitydistribution.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/GEOJSON/convert.sh",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/test/termprobabilitydistribution.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/Map Reduce/reducer.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/test/Data/L.kml",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/test/downloadkml.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/exportToJson/exportToJson.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/Data/rostcodetoRegion.csv",
+		"/Users/danielkershaw/Dropbox/Highwire/Summer Project/Code/run.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/mapperNEW.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/reducerNEW.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/graphsAndCorrolation.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/reducerNEWcombontaions.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/mapperNEWCombination.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/combination.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/exportToJSONPostcodeRegion.py",
+		"/Users/danielkershaw/Documents/Code/TweetDoop/run.py",
+		"/Users/danielkershaw/Dropbox/Highwire/Summer Project/Code/untitled.py",
+		"/Users/danielkershaw/Documents/node/Mining/twitterStream.js",
+		"/usr/local/Cellar/hadoop/1.1.2/libexec/logs/hadoop-danielkershaw-datanode-unknown-70:56:81:9c:b1:8f-2.home.out",
+		"/Users/danielkershaw/Dropbox/Highwire/Summer Project/Code/mapper-1.py",
+		"/Users/danielkershaw/Documents/Code/run.py",
+		"/Users/danielkershaw/Dropbox/Highwire/Summer Project/Code/timhhhe.py",
+		"/Users/danielkershaw/Dropbox/Highwire/Summer Project/Code/postcodes.csv",
+		"/Users/danielkershaw/Dropbox/Highwire/Summer Project/Code/regionScore.py",
+		"/Users/danielkershaw/Dropbox/Map/raphael-min.js",
+		"/Users/danielkershaw/Dropbox/Map/map.js",
+		"/Users/danielkershaw/Dropbox/Map/map.html",
+		"/Users/danielkershaw/Dropbox/Highwire/Summer Project/Code/geo.py",
+		"/Users/danielkershaw/Dropbox/Highwire/Summer Project/Code/rostcodetoRegion.csv",
+		"/Users/danielkershaw/Dropbox/Map/settings.js",
+		"/Users/danielkershaw/Dropbox/Map/map.css",
+		"/Users/danielkershaw/Documents/node/Mining/data.json",
+		"/Users/danielkershaw/.shuttle.json",
+		"/Users/danielkershaw/Dropbox/Highwire/Summer Project/Code/colocation.py",
+		"/Users/danielkershaw/Dropbox/Highwire/Summer Project/Code/code.py",
+		"/Users/danielkershaw/Dropbox/Highwire/Summer Project/Code/reader.py",
+		"/Users/danielkershaw/Dropbox/Highwire/Summer Project/Code/mapper.py",
+		"/Users/danielkershaw/Downloads/postcodes.csv",
+		"/Users/danielkershaw/Dropbox/Apps/site44/fastcamexample.site44.com/index.html",
+		"/Users/danielkershaw/Desktop/example.html",
+		"/Users/danielkershaw/Dropbox/Highwire/Summer Project/Code/time.py",
+		"/Users/danielkershaw/Dropbox/geo.py",
+		"/Users/danielkershaw/Dropbox/run.py",
+		"/Users/danielkershaw/Dropbox/time.py",
+		"/Users/danielkershaw/Dropbox/colocation.py",
+		"/Users/danielkershaw/Dropbox/mapper.py",
+		"/Users/danielkershaw/Dropbox/reader.py",
+		"/Users/danielkershaw/Dropbox/termDocumentMatrix.py"
+	],
+	"find":
+	{
+		"height": 35.0
+>>>>>>> 3b700112d7712f215ccf3fb24f1cb30112d0b281
 	},
 	"find_in_files":
 	{
@@ -59,6 +404,56 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+<<<<<<< HEAD
+=======
+			"indent",
+			"content",
+			"email",
+			"jquer",
+			"buildingID",
+			"distance",
+			"console.log",
+			"console",
+			" =",
+			"print",
+			"decimal",
+			"graph",
+			"print ",
+			"print",
+			"\n		",
+			"time",
+			"print",
+			"words",
+			"termsDic",
+			"()\n",
+			"RegionHourly",
+			"mkdir",
+			"print",
+			"UK",
+			"print",
+			")::\n",
+			"n, bins, patches = plt.hist(x, num_bins, normed=1, facecolor='green', alpha=0.5)\n	# add a 'best fit' line\n	y = mlab.normpdf(bins, mu, sigma)\n	plt.plot(bins, y, 'r--')\n	plt.xlabel('Smarts')\n	plt.ylabel('Probability')\n	plt.title(r'Histogram of IQ: $\\mu=100$, $\\sigma=15$')\n\n	# Tweak spacing to prevent clipping of ylabel\n	plt.subplots_adjust(left=0.15)\n	plt.show()",
+			"print",
+			"W",
+			"W1",
+			"19",
+			"M144",
+			"M1",
+			"html",
+			"e44",
+			"html",
+			"html5",
+			"html",
+			"from",
+			"prin",
+			"print",
+			"openFile",
+			"getFiles",
+			"buildTermDocumentMatrix",
+			"path",
+			"0",
+			"long"
+>>>>>>> 3b700112d7712f215ccf3fb24f1cb30112d0b281
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -73,6 +468,7 @@
 		"whole_word": false,
 		"wrap": true
 	},
+<<<<<<< HEAD
 	"folders":
 	[
 		{
@@ -80,6 +476,8 @@
 			"path": "/Users/danielkershaw/Code/TransportAPI"
 		}
 	],
+=======
+>>>>>>> 3b700112d7712f215ccf3fb24f1cb30112d0b281
 	"groups":
 	[
 		{
@@ -146,10 +544,17 @@
 		]
 	},
 	"menu_visible": true,
+<<<<<<< HEAD
 	"project": "",
 	"replace":
 	{
 		"height": 0.0
+=======
+	"project": "TransportAPI.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+>>>>>>> 3b700112d7712f215ccf3fb24f1cb30112d0b281
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -170,11 +575,19 @@
 	},
 	"select_symbol":
 	{
+<<<<<<< HEAD
 		"height": 0.0,
 		"selected_items":
 		[
 		],
 		"width": 0.0
+=======
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+>>>>>>> 3b700112d7712f215ccf3fb24f1cb30112d0b281
 	},
 	"settings":
 	{
@@ -183,7 +596,11 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
+<<<<<<< HEAD
 	"side_bar_width": 150.0,
+=======
+	"side_bar_width": 215.0,
+>>>>>>> 3b700112d7712f215ccf3fb24f1cb30112d0b281
 	"status_bar_visible": true,
 	"template_settings":
 	{
