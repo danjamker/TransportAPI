@@ -5,7 +5,7 @@ var log = require('debug')('forecast.io'),
 
 require('should');
 
-var TransportAPI = require('../lib/main');
+var TransportAPI = require('../lib/index');
 
 var options = {
   APIKey: process.env.TransportAPI_API_KEY,
@@ -32,6 +32,19 @@ describe('TransportAPI', function () {
 	describe('#LiveBusDepartures', function () {
 	 	it('should return data for a ATCOCode', function(done){
 	 		transportAPI.LiveBusDepartures(ATCOCode, format, function(err, res, data){
+	 			if(err) throw err;
+	 			log('res: '+ util.inspect(res));
+	 			log('data: '+ util.inspect(data));
+	 			res.should.not.equal.null;
+	 			data.should.not.equal.null;
+	 			done();
+	 		});
+		});
+	});
+
+	describe('#BusDepartures', function () {
+	 	it('should return data for a ATCOCode', function(done){
+	 		transportAPI.BusDepartures(ATCOCode, format, function(err, res, data){
 	 			if(err) throw err;
 	 			log('res: '+ util.inspect(res));
 	 			log('data: '+ util.inspect(data));
