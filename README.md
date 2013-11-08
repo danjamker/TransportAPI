@@ -12,7 +12,7 @@ Require TransposrtAPI
 var TransportAPI = require('TransportAPI');
  ```
  
- Instantiate an instance of TransposrtAPI. You'll need to provide options specifying your forecast.io API Key and API ID.
+ Instantiate an instance of TransposrtAPI. You'll need to provide options specifying your api key and app ID from transportAPI
 
 ```
 var options = {
