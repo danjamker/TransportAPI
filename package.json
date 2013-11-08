@@ -1,7 +1,7 @@
 {
   "name": "transport-api",
   "version": "0.0.1",
-  "description": "wrapper around TransportAPI weather API",
+  "description": "wrapper around TransportAPI",
   "main": "./lib/index.js",
   "scripts": {
     "test": "DEBUG= ./node_modules/.bin/mocha -R spec -t 5000"
