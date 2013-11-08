@@ -2,3 +2,5 @@
 configs.js
 
 npm-debug.log
+
+*.sublime-project
