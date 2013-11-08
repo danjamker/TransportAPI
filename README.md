@@ -9,7 +9,7 @@ npm install transport-api
 ```
 Require TransposrtAPI 
 ```javascript
-var TransportAPI = require('forecast.io');
+var TransportAPI = require('TransportAPI');
  ```
  
  Instantiate an instance of TransposrtAPI. You'll need to provide options specifying your forecast.io API Key and API ID.
