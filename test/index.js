@@ -44,7 +44,7 @@ describe('TransportAPI', function () {
 
 	describe('#BusDepartures', function () {
 	 	it('should return data for a ATCOCode', function(done){
-	 		transportAPI.BusDepartures(ATCOCode, format, function(err, res, data){
+	 		transportAPI.BusDepartures(ATCOCode, "2013-11-08","09:06",format, function(err, res, data){
 	 			if(err) throw err;
 	 			log('res: '+ util.inspect(res));
 	 			log('data: '+ util.inspect(data));
