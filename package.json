@@ -20,8 +20,13 @@
     "url": "git@github.com:danjamker/TransportAPI.git"
   },
   "homepage": "https://github.com/danjamker/TransportAPI",
-  "author": {
-    "name": "Daniel Kershaw"
+  "author": "Daniel Kershaw",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/danjamker/TransportAPI/issues"
   },
-  "license": "BSD"
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  }
 }
