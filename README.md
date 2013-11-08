@@ -16,8 +16,20 @@ var TransportAPI = require('forecast.io');
 
 ```
 var options = {
-  APIKey: process.env.TransportAPI_API_ID,
+  APIID: process.env.TransportAPI_API_ID,
   APIKey: process.env.TransportAPI_API_KEY 
 },
 transportapi = new TransportAPI(options);
+```
+
+Make a call to the API using the LiveBusDepartures.
+
+The LiveBusDepartures function calls to the http://transportapi.com/v3/uk/bus/stop/{atcocode}/live[.format]?{group=} endpoint.
+
+```
+transportapi.LiveBusDepartures(atcocode, function (err, res, data) {
+  if (err) throw err;
+  log('res: ' + util.inspect(res));
+  log('data: ' + util.inspect(data));
+});
 ```
