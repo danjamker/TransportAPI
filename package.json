@@ -15,7 +15,7 @@
     "mocha": "*",
     "should": "*"
   },
-  "keywords": [],
+  "keywords": ["TransportAPI", "Transport", "API", "Bus", "Bus Times", "TimeTables", "Train Times"],
   "repository": {
     "url": "git@github.com:danjamker/TransportAPI.git"
   },
