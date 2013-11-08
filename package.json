@@ -1,5 +1,5 @@
 {
-  "name": "TransportAPI",
+  "name": "transport-api",
   "version": "0.0.1",
   "description": "wrapper around TransportAPI weather API",
   "main": "./lib/index.js",
