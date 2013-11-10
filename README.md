@@ -27,10 +27,25 @@ Make a call to the API using the LiveBusDepartures.
 The LiveBusDepartures function calls to the http://transportapi.com/v3/uk/bus/stop/{atcocode}/live[.format]?{group=} endpoint.
 
 ```
-options = {};
-options["group"] = "route";
+var options = {
+ group: "route"
+};
 
 transportapi.LiveBusDepartures(atcocode, options, function (err, res, data) {
+  if (err) throw err;
+  log('res: ' + util.inspect(res));
+  log('data: ' + util.inspect(data));
+});
+```
+
+The BusDepartures function calls to the http://transportapi.com/v3/uk/bus/stop/{atcocode}/{date}/{time}/timetable[.format]?{group=} endpoint.
+
+```
+var options = {
+ group: "route"
+};
+
+transportapi.BusDepartures(atcocode, options, function (err, res, data) {
   if (err) throw err;
   log('res: ' + util.inspect(res));
   log('data: ' + util.inspect(data));
