@@ -26,7 +26,7 @@ Make a call to the API using the LiveBusDepartures.
 
 The LiveBusDepartures function calls to the http://transportapi.com/v3/uk/bus/stop/{atcocode}/live[.format]?{group=} endpoint.
 
-```
+```javascript
 var options = {
  group: "route"
 };
@@ -40,12 +40,49 @@ transportapi.LiveBusDepartures(atcocode, options, function (err, res, data) {
 
 The BusDepartures function calls to the http://transportapi.com/v3/uk/bus/stop/{atcocode}/{date}/{time}/timetable[.format]?{group=} endpoint.
 
-```
+```javascript
 var options = {
  group: "route"
 };
 
 transportapi.BusDepartures(atcocode, options, function (err, res, data) {
+  if (err) throw err;
+  log('res: ' + util.inspect(res));
+  log('data: ' + util.inspect(data));
+});
+```
+
+The NearbyBusStops function calls to the http://transportapi.com/v3/uk/bus/stops/near[.format]?{lon=&lat=}[&page=][&rpp=] endpoint.
+
+```javascript
+var options = {
+ lon: "route", 
+ lat: ,
+ page: , 
+ rpp: 
+};
+
+transportapi.BusDepartures(options, function (err, res, data) {
+  if (err) throw err;
+  log('res: ' + util.inspect(res));
+  log('data: ' + util.inspect(data));
+});
+```
+
+The BusStopsInAboundingBox function calls to the http://transportapi.com/v3/uk/bus/stops/bbox[.format]?{minlon=&minlat=&maxlon=&maxlat=}[&page=][&rpp=]
+ endpoint.
+
+```javascript
+var options = {
+ minlon: "route", 
+ minlat: ,
+ maxlon: ,
+ maxlat: ,
+ page: , 
+ rpp: 
+};
+
+transportapi.BusStopsInAboundingBox(options, function (err, res, data) {
   if (err) throw err;
   log('res: ' + util.inspect(res));
   log('data: ' + util.inspect(data));
