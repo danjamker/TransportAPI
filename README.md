@@ -1,4 +1,5 @@
-#TransportAPI
+#TransportAPI [![NPM version](https://badge.fury.io/js/transport-api.png)](http://badge.fury.io/js/transport-api)
+
 A basic warapper around TransportAPI (http://transportapi.com/)
 
 How to use it:
