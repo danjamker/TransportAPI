@@ -3,8 +3,18 @@
 	{
 		"selected_items":
 		[
-<<<<<<< HEAD
-=======
+			[
+				"A",
+				"APIID"
+			],
+			[
+				"api",
+				"APIKey"
+			],
+			[
+				"a",
+				"ATCOCode"
+			],
 			[
 				"re",
 				"restify"
@@ -213,29 +223,58 @@
 				"if",
 				"ifmain	if __name__ == '__main__'"
 			]
->>>>>>> 3b700112d7712f215ccf3fb24f1cb30112d0b281
 		]
 	},
 	"buffers":
 	[
 		{
+			"file": "test/index.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 5452,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "var log = require('debug'),\n    request = require('request'),\n    util = require('util'),\n    _ = require('lodash');\n\nfunction TransportAPIError (errors) {\n	  Error.captureStackTrace(this, TransportAPIError);\n	  this.errors = errors;\n	}\n\n	util.inherits(TransportAPIError, Error);\n\n	TransportAPIError.prototype.toString = function toString (){\n	  return \"TransportAPIError: \" + this.errors;\n	}\n\n	function TransportAPI (options) {\n	  if ( ! options) throw new ForecastError('APIKey and APIID must be set on TransportAPI options');\n	  if ( ! options.APIKey) throw new ForecastError('APIKey must be set on TransportAPI options');\n	  if ( ! options.APIID) throw new ForecastError('APIID must be set on TransportAPI options');\n\n	  this.APIKey = options.APIKey;\n	  this.APIID = options.APIID;\n	  this.url = 'http://transportapi.com/v3/uk';\n	}\n	\n	TransportAPI.prototype.LiveBusDepartures = function LiveBusDepartures (atcocode, format ,options, callback) {\n		  if (typeof options === 'function') {\n		    callback = options;\n		    options = {};\n		  }\n		  var url = this.url + \"/bus/stop/\" + atcocode +\"/live.\" + format;\n		  options[\"api_key\"] = this.APIKey\n		  options[\"app_id\"] = this.APIID\n		  var query = _.reduce(options, function (result, val, key) {\n		    if (result) return result + '&' + key + '=' + val;\n		    return result + '?' + key + '=' + val;\n		  }, '');\n\n		  url += query;\n		  console.log(url)\n		  log('get ' + url);\n\n		  request.get(url, function (err, res, data) {\n		    if (err) {\n		      callback(err);\n		    } else {\n		      data = JSON.parse(data);\n		      console.log(data)\n		      callback(null, res, data);\n		    }\n		  });\n		};\n\n	\n	TransportAPI.prototype.BusDepartures = function LiveBusDepartures (atcocode, format ,options, callback) {\n		  if (typeof options === 'function') {\n		    callback = options;\n		    options = {};\n		  }\n		  var url = this.url + \"/bus/stop/\" + atcocode +\"/timetable.\" + format;\n		  options[\"api_key\"] = this.APIKey\n		  options[\"app_id\"] = this.APIID\n		  var query = _.reduce(options, function (result, val, key) {\n		    if (result) return result + '&' + key + '=' + val;\n		    return result + '?' + key + '=' + val;\n		  }, '');\n\n		  url += query;\n		  console.log(url)\n		  log('get ' + url);\n\n		  request.get(url, function (err, res, data) {\n		    if (err) {\n		      callback(err);\n		    } else {\n		      data = JSON.parse(data);\n		      log(data)\n		      callback(null, res, data);\n		    }\n		  });\n		};\n\nmodule.exports = TransportAPI;",
+			"file": "lib/main.js",
+			"file_size": 2477,
+			"file_write_time": 130283136670000000,
+			"settings":
+			{
+				"buffer_size": 2477,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "configs.js",
+			"settings":
+			{
+				"buffer_size": 117,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 932,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "makefile",
+			"settings":
+			{
+				"buffer_size": 337,
+				"line_ending": "Unix",
+				"name": "test:"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-<<<<<<< HEAD
-		"height": 0.0,
-		"selected_items":
-		[
-		],
-		"width": 0.0
-=======
 		"height": 67.0,
 		"selected_items":
 		[
@@ -249,7 +288,6 @@
 			]
 		],
 		"width": 392.0
->>>>>>> 3b700112d7712f215ccf3fb24f1cb30112d0b281
 	},
 	"console":
 	{
@@ -269,12 +307,7 @@
 	},
 	"file_history":
 	[
-<<<<<<< HEAD
-	],
-	"find":
-	{
-		"height": 0.0
-=======
+		"/Users/danielkershaw/Documents/Code/TransportAPI/lib/main.js",
 		"/Users/danielkershaw/Documents/Code/ProjectNutMeg-API/node_modules/newrelic/newrelic.js",
 		"/Users/danielkershaw/Documents/Code/ProjectNutMeg-API/v0.1/Route/weather.js",
 		"/Users/danielkershaw/Documents/Code/ProjectNutMeg-API/v0.1/Model/weather.js",
@@ -390,7 +423,6 @@
 	"find":
 	{
 		"height": 35.0
->>>>>>> 3b700112d7712f215ccf3fb24f1cb30112d0b281
 	},
 	"find_in_files":
 	{
@@ -404,8 +436,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-<<<<<<< HEAD
-=======
 			"indent",
 			"content",
 			"email",
@@ -453,7 +483,6 @@
 			"path",
 			"0",
 			"long"
->>>>>>> 3b700112d7712f215ccf3fb24f1cb30112d0b281
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -468,16 +497,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-<<<<<<< HEAD
-	"folders":
-	[
-		{
-			"follow_symlinks": true,
-			"path": "/Users/danielkershaw/Code/TransportAPI"
-		}
-	],
-=======
->>>>>>> 3b700112d7712f215ccf3fb24f1cb30112d0b281
 	"groups":
 	[
 		{
@@ -486,23 +505,134 @@
 			[
 				{
 					"buffer": 0,
+					"file": "test/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 5452,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2098,
+								2120
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 123.0,
+						"translation.y": 726.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2380,
+								2380
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "configs.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12,
+								31
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 932,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								749,
+								749
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								90,
+								90
+							]
+						],
+						"settings":
+						{
+							"auto_name": "test:",
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -544,17 +674,10 @@
 		]
 	},
 	"menu_visible": true,
-<<<<<<< HEAD
-	"project": "",
-	"replace":
-	{
-		"height": 0.0
-=======
 	"project": "TransportAPI.sublime-project",
 	"replace":
 	{
 		"height": 42.0
->>>>>>> 3b700112d7712f215ccf3fb24f1cb30112d0b281
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -575,19 +698,11 @@
 	},
 	"select_symbol":
 	{
-<<<<<<< HEAD
-		"height": 0.0,
-		"selected_items":
-		[
-		],
-		"width": 0.0
-=======
 		"height": 392.0,
 		"selected_items":
 		[
 		],
 		"width": 392.0
->>>>>>> 3b700112d7712f215ccf3fb24f1cb30112d0b281
 	},
 	"settings":
 	{
@@ -596,11 +711,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-<<<<<<< HEAD
-	"side_bar_width": 150.0,
-=======
 	"side_bar_width": 215.0,
->>>>>>> 3b700112d7712f215ccf3fb24f1cb30112d0b281
 	"status_bar_visible": true,
 	"template_settings":
 	{
